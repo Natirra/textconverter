@@ -1,0 +1,27 @@
+// Подключаем шрифты
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+// Подключаем другие scss файлы
+@import "_nullstyle.scss";
+
+// Настраиваем переменные
+
+// Настраиваем шаблоны (подключается через @extend .имяшаблона; )
+
+// Настраиваем Mixin (шаблон наоборот. Подключается через @include имямиксина(знач,знач) )
+
+// Классы для Home Work 1
+.block__1{
+	padding-bottom: 50px;
+	
+}
+.input-field{
+overflow: auto;
+height: 200px;
+width: 300px;
+	}
+
+	.output-field{
+		overflow: auto;
+		height: 200px;
+		width: 300px;
+			}
