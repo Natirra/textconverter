@@ -71,6 +71,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
+.block {
+  margin: 10px;
+}
+
 .block_item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .block__1 {
+  margin: 10px;
   max-width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
