@@ -10,18 +10,54 @@
 // Настраиваем Mixin (шаблон наоборот. Подключается через @include имямиксина(знач,знач) )
 
 // Классы для Home Work 1
-.block__1{
-	padding-bottom: 50px;
-	
-}
-.input-field{
-overflow: auto;
-height: 200px;
-width: 300px;
+.block {
+
+
+	&_item {
+		display: flex;
+		flex: 0 0 25%;
+		gap: 10px;
+		flex-direction: column;
+		padding: 10px;
+		background-color: rgb(160, 160, 160);
 	}
 
-	.output-field{
-		overflow: auto;
-		height: 200px;
-		width: 300px;
-			}
+	&__1 {
+		max-width: 1000px;
+		display: flex;
+		gap: 10px;
+		padding-bottom: 50px;
+	}
+
+	&__2 {
+		max-width: 1000px;
+		display: flex;
+		gap: 10px;
+	}
+}
+.stop-list {
+
+	&__block {
+		display: flex;
+		gap: 10px;
+		flex-direction: column;
+	}
+}
+
+.btn {
+	padding: 5px;
+	border: 1px ;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+.area {
+	display: block;
+	height: 300px;
+	overflow: auto;
+}
+
+.output {
+	color: #fff;
+}

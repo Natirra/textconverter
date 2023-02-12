@@ -11,16 +11,27 @@
 
 <body>
 	<div class="block__1">
-		<textarea id="input-field">Сюда ввести никнеймы</textarea>
-		<button id="submit-button">Почистить список</button>
-		<p id="output-field"></p>
+		<div class="block_item">
+			<textarea class="area" id="input-field"
+				placeholder="Здесь расположить список, который нужно отредактировать"></textarea>
+			<button class="btn" id="submit-button">Привести в порядок</button>
+		</div>
+		<div class="block_item">
+			<textarea class="area" id="input-for-exclude-field" placeholder=""></textarea>
+		</div>
+		<div class="block_item stop-list__block">
+			<textarea class="area" id="exclude-field" placeholder="Cтоп-лист никнеймы через запятую"></textarea>
+			<button class="btn" id="exclude-button">Ислючить стоп-лист</button>
+		</div>
+		<div class="block_item">
+			<p class="output" id="exclude-output-field">Результат</p>
+		</div>
 	</div>
 	<div class="block__2">
-		<textarea id="input-for-exclude-field">Сюда ввести результат этапа №1</textarea>
-		<textarea id="exclude-field">Сюда ввести стоп-лист</textarea>
-		<button id="exclude-button">Очистить список</button>
-		<p id="exclude-output-field"></p>
+
 	</div>
+
+
 </body>
 
 <script src="js/script.js"></script>

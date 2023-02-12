@@ -11,7 +11,8 @@ submitButton.addEventListener("click", function () {
 	console.log('click')
 	let input = inputField.value;
 	let output = input.replace(/\d+\./g, '').replace(/\s/g, ', ');
-	outputField.textContent = output;
+
+	inputForExcludeField.textContent = output;
 });
 
 excludeButton.addEventListener("click", function () {
