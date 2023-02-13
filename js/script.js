@@ -10,7 +10,7 @@ let excludeOutputField = document.getElementById("exclude-output-field");
 submitButton.addEventListener("click", function () {
 	console.log('click')
 	let input = inputField.value;
-	let output = input.replace(/\d+\./g, '').replace(/\s/g, ', ');
+	let output = input.replace(/\d+\./g, ', ');
 
 	inputForExcludeField.textContent = output;
 });
